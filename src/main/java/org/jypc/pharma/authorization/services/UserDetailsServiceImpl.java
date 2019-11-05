@@ -1,5 +1,7 @@
-package org.jypc.pharma.authorization;
+package org.jypc.pharma.authorization.services;
 
+import org.jypc.pharma.authorization.database.ApplicationUser;
+import org.jypc.pharma.authorization.database.ApplicationUserRepository;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

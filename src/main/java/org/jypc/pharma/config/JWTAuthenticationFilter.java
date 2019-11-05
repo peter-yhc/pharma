@@ -2,7 +2,7 @@ package org.jypc.pharma.config;
 
 import com.auth0.jwt.JWT;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.jypc.pharma.authorization.ApplicationUser;
+import org.jypc.pharma.authorization.database.ApplicationUser;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;

@@ -3,6 +3,9 @@ package org.jypc.pharma.patient.api;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+/**
+ * Represents patient data transferred over the web necessary to create a new patient
+ **/
 @Data
 @AllArgsConstructor
 public class CreatePatientDTO {

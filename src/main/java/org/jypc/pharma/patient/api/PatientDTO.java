@@ -4,6 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.jypc.pharma.patient.database.Patient;
 
+
+/**
+ * Represents patient data transferred over the web
+ **/
 @Data
 @AllArgsConstructor
 public class PatientDTO {

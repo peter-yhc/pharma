@@ -1,6 +1,6 @@
 package org.jypc.pharma.config;
 
-import org.jypc.pharma.authorization.UserDetailsServiceImpl;
+import org.jypc.pharma.authorization.services.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

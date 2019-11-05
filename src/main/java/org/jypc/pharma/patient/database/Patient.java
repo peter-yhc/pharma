@@ -7,6 +7,9 @@ import org.jypc.pharma.trial.Trial;
 import javax.persistence.*;
 import java.util.Set;
 
+/**
+ * Represents the database Patient table
+**/
 @Data
 @Entity
 public class Patient {
