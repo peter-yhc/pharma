@@ -5,4 +5,5 @@ import org.springframework.stereotype.Component;
 
 @Component
 public interface PatientRepository extends JpaRepository<Patient, Long> {
+
 }
