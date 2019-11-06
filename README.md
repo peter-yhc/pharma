@@ -63,7 +63,10 @@ chmod +x ./gradlew
 ./gradlew clean bootjar
 ```
 
-
+Run the server
+```
+java -jar build/lib/pharma-0.0.1-SNAPSHOT.jar
+```
 
 ## Code tutorials
 Setting up JWTs in Spring: https://auth0.com/blog/implementing-jwt-authentication-on-spring-boot/
